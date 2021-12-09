@@ -20,7 +20,12 @@ public class Calcul {
                 break;
             case '/': result = num1 / num2;
                 break;
+            default:
+                System.out.print("Ошибка, введен оператор не из списка выше, введите заново:");
+                return;
         }
+
+
 
 
     }
