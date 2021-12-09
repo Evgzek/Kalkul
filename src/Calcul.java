@@ -5,6 +5,11 @@ public class Calcul {
         double num2;
         double result;
         char operator;
+        Scanner people = new Scanner(System.in);
+        System.out.print("Введите два числа:");
+        num1 = people.nextDouble();
+        num2 = people.nextDouble();
+
 
     }
 }
